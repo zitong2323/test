@@ -34,7 +34,7 @@ window.addEventListener('load', function() {
             awe.projections.add({ 
               id: 'wormhole',
               /*geometry: {shape: 'plane', height: 200, width: 200},*/
-              geometry:{shape: 'cube', x: 20, y: 30, z: 5},
+              geometry:{shape: 'sphere', radius: 10},
               position: {x: 0, y: 0, z: 0},
               rotation: {x: 90, z: 45},
               material: {
